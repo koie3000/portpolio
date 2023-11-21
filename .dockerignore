@@ -1,0 +1,15 @@
+# Node artifact files
+/node_modules
+
+# package
+package-lock.json
+
+# gitfile
+.git/
+
+# Log files
+*.log
+/logs
+
+# src 제거
+/src
