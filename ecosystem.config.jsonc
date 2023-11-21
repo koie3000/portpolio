@@ -1,7 +1,7 @@
 [
   {
     "name": "front-admin",
-    "script": "ts-node server.js", // 앱 실행 스크립트
+    "script": "./server.js", // 앱 실행 스크립트
     "instances": 1, // 앱 인스턴스의 수
     "exec_mode": "cluster", // 실행 모드.
     "autorestart": true, // 프로세스 실패 시 자동으로 재시작할지 선택
