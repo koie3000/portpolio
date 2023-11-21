@@ -20,7 +20,7 @@ jobs:
         id: docker_meta
         uses: crazy-max/ghaction-docker-meta@v1
         with:
-          images: teichae/node
+          images: jdy52/portpolio
           tag-semver: |
             {{version}}
             {{major}}.{{minor}}
