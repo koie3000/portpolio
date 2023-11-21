@@ -29,4 +29,4 @@ WORKDIR /applications/portpolio
 COPY --from=build /applications/portpolio .
 
 # 실행 ( pm2 )
-CMD ["pm2-runtime", "start", "ecosystem.config.js"]
+CMD ["pm2-runtime", "start", "ecosystem.config.jsonc"]
